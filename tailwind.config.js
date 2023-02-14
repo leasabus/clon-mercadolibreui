@@ -20,6 +20,7 @@ module.exports = {
       "gray": "#6d5766",
       "white": "#FFFFFF",
       "bgColor": "#ededed",
+      "borderColor": "#8d99ae"
 
     },
   },

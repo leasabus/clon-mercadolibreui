@@ -1,6 +1,6 @@
 import { ListComponent } from '@/components/ListComponent'
 import { NavBar } from '@/components/NavBar'
-import { ProductComponent } from '@/components/ProductComponent'
+import { ProductContainer } from '@/components/ProductContainer'
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -17,7 +17,7 @@ export default function Home() {
       <main className=''>
         <NavBar />
         <ListComponent />
-        <ProductComponent />
+        <ProductContainer />
       </main>
     </>
   )
